@@ -17,16 +17,16 @@ Dies ist ein Backend-Projekt, das mit Node.js und Express entwickelt wurde. Es v
   - `createBook` erstellt ein neues Buch.
   - `getAllBooks` gibt alle Bücher zurück.
 
-## nächste Schritte
+## 03.02.2025
 
 - Implementierung von Routen in `routes/bookRoutes.js`.
 - Implementierung von der restlichen Controller-Logik.
+  - Funktion für das finden von einem Buch, das Updaten und das Löschen von einem Buch
 
 ## Ordnerstruktur
 
 ```
 - Controllers/
-- Data/
 - Models/
 - Public/
 - Routes/
@@ -39,7 +39,7 @@ Dies ist ein Backend-Projekt, das mit Node.js und Express entwickelt wurde. Es v
 ## Verwendete Module
 
 - express
-- faker
+- faker wurde durch eine feste Datenbank ersetzt
 - mongoose
 - dotenv
 - node

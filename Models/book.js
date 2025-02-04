@@ -2,16 +2,30 @@ import mongoose from 'mongoose';
 import { Schema } from 'mongoose';
 
 const bookSchema = new Schema({
-  books: [
-    {
-      author: { type: String, required: true },
-      title: { type: String, required: true },
-      genre: { type: String, required: true },
-      series: { type: String, required: true },
-      publisher: { type: String, required: true },
-      format: { type: String, required: true },
-    },
-  ],
+  title: { type: String, required: true },
+  author: { type: String, required: true },
+  isbnNumber: Number,
+  price: Number,
+  publicationYear: Number,
+  publisher: String,
+  pages: Number,
+  genre: String,
+  titleType: {
+    type: String,
+    enum: [
+      'Einzelband',
+      'Dilogie',
+      'Trilogie',
+      'Tetralogie',
+      'Pentalogie',
+      'Hexalogie',
+      'Heptalogie',
+      'Oktologie',
+      'Ennealogie',
+      'Dekalogie',
+    ],
+  },
+  bookType: { type: String, enum: ['Taschenbuch', 'eBook', 'Hardcover'] },
 });
 
 export default mongoose.model('book', bookSchema);

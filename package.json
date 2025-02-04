@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "bulma": "^1.0.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "faker": "^5.5.3",

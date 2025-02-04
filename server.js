@@ -1,14 +1,14 @@
 import express from 'express';
 import { connectToDB } from './connect.js';
-//import data from './Data/fakeData.js';
 import dotenv from 'dotenv';
+import { bookRouter } from './Routes/bookRoutes.js';
 
 dotenv.config();
 await connectToDB();
-//await data();
 
 const app = express();
 app.use(express.json());
+app.use('/api/books', bookRouter);
 
 connectToDB().then(() => {
   app.listen(process.env.PORT);
