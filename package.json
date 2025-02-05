@@ -2,10 +2,12 @@
   "type": "module",
   "dependencies": {
     "bulma": "^1.0.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "faker": "^5.5.3",
-    "mongoose": "^8.9.5"
+    "mongoose": "^8.9.5",
+    "react": "^19.0.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.4.0"

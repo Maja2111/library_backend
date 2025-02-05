@@ -19,6 +19,7 @@ export const createBook = async (req, res) => {
       genre: req.body.genre,
       titleType: req.body.titleType,
       bookType: req.body.BookType,
+      coverImage: req.body.coverImage,
     };
     const book = new Book(newBook);
     await book.save(); //speichert das Buch im Dokument book
@@ -38,14 +39,14 @@ export const search = async (req, res) => {
  * @returns gibt alle Bücher zurück
  */
 export const getAllBooks = async (req, res) => {
-  const author = req.query.author;
-  const title = req.query.title;
+  const author = req.query.author ? req.query.author.toLowerCase() : undefined;
+  const title = req.query.title ? req.query.title.toLowerCase() : undefined;
   const query = {}; // ist mein Suchobjekt
-  if (author) {
-    query.author = { $regex: author };
+  if (author && typeof author === 'string') {
+    query.author = { $regex: author, $options: 'i' };
   }
-  if (title) {
-    query.title = { $regex: title };
+  if (title && typeof title === 'string') {
+    query.title = { $regex: title, $options: 'i' };
   }
   try {
     const books = await Book.find(query);

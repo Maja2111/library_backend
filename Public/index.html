@@ -8,11 +8,19 @@
   </head>
   <body>
     <h1>Willkommen in der Bibliothek</h1>
-    <label for="search">Suchfeld</label>
-    <input type="text" id="search" />
-    <button class="button" onclick="search()">Suchen</button>
-    <div id="results">Ergebnisse</div>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/react@latest/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/react-dom@latest/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script type="module" src="App.js"></script>
+    <script>
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<App />);
+    </script>
   </body>
 </html>

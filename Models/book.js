@@ -1,5 +1,4 @@
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const bookSchema = new Schema({
   title: { type: String, required: true },
@@ -26,6 +25,7 @@ const bookSchema = new Schema({
     ],
   },
   bookType: { type: String, enum: ['Taschenbuch', 'eBook', 'Hardcover'] },
+  coverImage: String,
 });
 
-export default mongoose.model('book', bookSchema);
+export default model('book', bookSchema);

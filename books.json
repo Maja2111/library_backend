@@ -9,7 +9,8 @@
     "pages": 768,
     "genre": "Fantasie",
     "titleType": "Pentalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.dtv.de/buch/fourth-wing-flammengekuesst-44220"
   },
   {
     "title": "Iron Flame - Flammengeküsst",
@@ -21,7 +22,8 @@
     "pages": 960,
     "genre": "Fantasie",
     "titleType": "Pentalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1069247624?ProvID=15322706&gad_source=1&gclid=CjwKCAiAtYy9BhBcEiwANWQQL1GpJYWZ00eSQxTHDcJs4Ic8d1P8nC-Ip3D6O-Zx4iZCyEznpbqXZhoCSGIQAvD_BwE"
   },
   {
     "title": "Die Flüsse von London - Peter Grant Story Band 1",
@@ -29,11 +31,10 @@
     "isbnNumber": 9783423213417,
     "price": 12,
     "publicationYear": 2012,
-    "publisher": "dtv",
-    "pages": 480,
     "genre": "Fantasie",
     "titleType": "Ennealogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/Die-Fl%C3%BCsse-von-London-Fl%C3%BCsse-von-London-Reihe/dp/3423213418"
   },
   {
     "title": "Der schwarze Mond über Soho - Peter Grant Story Band 2",
@@ -45,7 +46,8 @@
     "pages": 416,
     "genre": "Fantasie",
     "titleType": "Ennealogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/-/en/Schwarzer-Mond-%C3%BCber-Soho-Fl%C3%BCsse-von-London-Reihe/dp/3423213809/ref=pd_bxgy_thbs_d_sccl_1/259-9709343-3371928?pd_rd_w=7yDif&content-id=amzn1.sym.5eda1a26-aae5-46aa-95ea-198f43dc011e&pf_rd_p=5eda1a26-aae5-46aa-95ea-198f43dc011e&pf_rd_r=994WWBV1HY2D6KAACXVC&pd_rd_wg=qJ0ib&pd_rd_r=b343724e-5729-4538-972b-ac08e63b59d5&pd_rd_i=3423213809&psc=1"
   },
   {
     "title": "Die schlafenden Geister des Lake Superior - Kimberley Reynolds Story",
@@ -57,7 +59,8 @@
     "pages": 240,
     "genre": "Fantasie",
     "titleType": "Einzelband",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/-/en/schlafenden-Geister-Superior-Kimberley-Reynolds-Story-Fl%C3%BCsse-von-London-Reihe/dp/3423218770/ref=pd_sbs_d_sccl_2_12/259-9709343-3371928?pd_rd_w=1UhKx&content-id=amzn1.sym.49f459c6-2c34-4c10-b7c3-10d8e862ad07&pf_rd_p=49f459c6-2c34-4c10-b7c3-10d8e862ad07&pf_rd_r=68W7QRDDXBKJMGQC4V49&pd_rd_wg=vjqOi&pd_rd_r=14db758a-15ab-487e-8453-bc5e6f3e4cf9&pd_rd_i=3423218770&psc=1"
   },
   {
     "title": "Rubinrot - Liebe geht durch alle Zeiten Bd. 1",
@@ -69,7 +72,8 @@
     "pages": 352,
     "genre": "Zeitreiseliebesroman",
     "titleType": "Trilogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/Rubinrot-Liebe-geht-durch-Zeiten/dp/3401063340"
   },
   {
     "title": "Saphirblau - Liebe geht durch alle Zeiten Band 2",
@@ -81,7 +85,8 @@
     "pages": 400,
     "genre": "Zeitreiseliebesroman",
     "titleType": "Trilogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/-/en/Liebe-geht-durch-Zeiten-Saphirblau/dp/3401063472/ref=bmx_dp_4e72jjvo_d_sccl_1_1/259-9709343-3371928?pd_rd_w=4PJbf&content-id=amzn1.sym.7df9fb5e-3feb-4608-b891-7f6abaed1317&pf_rd_p=7df9fb5e-3feb-4608-b891-7f6abaed1317&pf_rd_r=RFV575MS9DFJCPEPR76P&pd_rd_wg=18aeV&pd_rd_r=abf79c66-7ecb-4ccc-af7b-9f8a434b7b33&pd_rd_i=3401063472&psc=1"
   },
   {
     "title": "Smaragdgrün - Liebe geht durch alle Zeiten Band 3",
@@ -93,7 +98,8 @@
     "pages": 400,
     "genre": "Zeitreiseliebesroman",
     "titleType": "Trilogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.amazon.de/-/en/Liebe-geht-durch-Zeiten-Smaragdgr%C3%BCn/dp/3401063480/ref=pd_bxgy_thbs_d_sccl_1/259-9709343-3371928?pd_rd_w=0HKnb&content-id=amzn1.sym.5eda1a26-aae5-46aa-95ea-198f43dc011e&pf_rd_p=5eda1a26-aae5-46aa-95ea-198f43dc011e&pf_rd_r=4AE497DSHRK11QNKP0SC&pd_rd_wg=LRuej&pd_rd_r=99a9b274-82d7-4249-92db-db56b4b97df3&pd_rd_i=3401063480&psc=1"
   },
   {
     "title": "Love Recipes – Verführung à la carte",
@@ -105,7 +111,8 @@
     "pages": 464,
     "genre": "Young Adult Roman",
     "titleType": "Trilogie",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1056813703"
   },
   {
     "title": "Love Recipes - Süßes Verlangen",
@@ -117,7 +124,8 @@
     "pages": 464,
     "genre": "Young Adult Roman",
     "titleType": "Trilogie",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1056813394"
   },
   {
     "title": "Love Recipes - Happy Hour fürs Herz",
@@ -129,7 +137,8 @@
     "pages": 400,
     "genre": "Young Adult Roman",
     "titleType": "Trilogie",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1056813383"
   },
   {
     "title": "Die Liebenden von Leningrad",
@@ -141,7 +150,8 @@
     "pages": 752,
     "genre": "Kriegsroman",
     "titleType": "Triologie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1045125565"
   },
   {
     "title": "Illuminati",
@@ -153,7 +163,8 @@
     "pages": 736,
     "genre": "Thriller",
     "titleType": "Pentalogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000200708"
   },
   {
     "title": "Sakrileg",
@@ -165,7 +176,8 @@
     "pages": 624,
     "genre": "Thriller",
     "titleType": "Pentalogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000803652"
   },
   {
     "title": "Cupido",
@@ -177,7 +189,8 @@
     "pages": 480,
     "genre": "Thriller",
     "titleType": "Triologie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000716992"
   },
   {
     "title": "Die Schönste im ganzen Land",
@@ -189,7 +202,8 @@
     "pages": 272,
     "genre": "Märchen",
     "titleType": "Reihe",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1059150931"
   },
   {
     "title": "Das Biest in ihm",
@@ -201,7 +215,8 @@
     "pages": 224,
     "genre": "Märchen",
     "titleType": "Reihe",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1060197135"
   },
   {
     "title": "Harry Potter und der Stein der Weisen",
@@ -213,7 +228,8 @@
     "pages": 336,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000707427"
   },
   {
     "title": "Harry Potter und die Kammer des Schreckens",
@@ -225,7 +241,8 @@
     "pages": 352,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000818700"
   },
   {
     "title": "Harry Potter und der Gefangene von Askaban",
@@ -237,7 +254,8 @@
     "pages": 448,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000974120"
   },
   {
     "title": "Harry Potter und der Feuerkelch",
@@ -249,7 +267,8 @@
     "pages": 704,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000960122"
   },
   {
     "title": "Harry Potter und der Orden des Phönix",
@@ -261,7 +280,8 @@
     "pages": 960,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1001093507"
   },
   {
     "title": "Harry Potter und der Halbblutprinz",
@@ -273,7 +293,8 @@
     "pages": 640,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1009329752"
   },
   {
     "title": "Harry Potter und die Heiligtümer des Todes",
@@ -285,7 +306,8 @@
     "pages": 752,
     "genre": "Fantasie",
     "titleType": "Heptalogie",
-    "bookType": "Hardcover"
+    "bookType": "Hardcover",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1015544707"
   },
   {
     "title": "Warum Menschen töten - Eine Polizeipsychologin ermittelt",
@@ -297,7 +319,8 @@
     "pages": 208,
     "genre": "Bericht",
     "titleType": "Einzelband",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1031256017"
   },
   {
     "title": "Dunbridge Academy - Anywhere",
@@ -309,7 +332,8 @@
     "pages": 464,
     "genre": "Young Adult",
     "titleType": "Trilogie",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1060659182"
   },
   {
     "title": "Tycoon - Dein Herz so nah",
@@ -321,7 +345,8 @@
     "pages": 297,
     "genre": "Roman",
     "titleType": "Trilogie",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1050666022"
   },
   {
     "title": "Mogul -  Wenn du mich berührst",
@@ -333,7 +358,8 @@
     "pages": 281,
     "genre": "Roman",
     "titleType": "Trilogie",
-    "bookType": "eBook"
+    "bookType": "eBook",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1052822235"
   },
   {
     "title": "Gone Girl",
@@ -345,7 +371,8 @@
     "pages": 592,
     "genre": "Thriller",
     "titleType": "Einzelband",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1033810704"
   },
   {
     "title": "Die Physiker",
@@ -357,7 +384,8 @@
     "pages": 96,
     "genre": "Lektüre",
     "titleType": "Einzelband",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000186101"
   },
   {
     "title": "Die neuen Leiden des jungen W.",
@@ -369,6 +397,7 @@
     "pages": 160,
     "genre": "Lektüre",
     "titleType": "Einzelband",
-    "bookType": "Taschenbuch"
+    "bookType": "Taschenbuch",
+    "coverImage": "https://www.thalia.de/shop/home/artikeldetails/A1000396132"
   }
 ]

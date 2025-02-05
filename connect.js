@@ -2,22 +2,15 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
 dotenv.config();
-
-const { MONGODB_URI } = process.env;
-
-export const connectToDB = async () => {
-  try {
-    mongoose.connection.on('error', (error) => {
-      console.error('Failed to connect to MongoDB:', error);
-    });
-
-    mongoose.connection.on('connected', () => {
-      console.log('Connected to MongoDB');
-    });
-
+console.log(process.env.MONGODB_URI);
+export async function connect() {
+  const MONGODB_URI = process.env.MONGODB_URI;
+  if (MONGODB_URI) {
     await mongoose.connect(MONGODB_URI);
-  } catch (error) {
-    console.error('Failed to connect to MongoDB:', error);
-    process.exit(1);
+    console.log(
+      ':white_check_mark: MongoDB erfolgreich verbunden :fire::fire:'
+    );
+  } else {
+    throw new Error(' :x: Fehler:  MONGODB_URL not found');
   }
-};
+}
