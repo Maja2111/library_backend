@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,19 +8,16 @@
   </head>
   <body>
     <h1>Willkommen in der Bibliothek</h1>
-    <div id="root"></div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/react@latest/umd/react.development.js"
-      crossorigin
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/react-dom@latest/umd/react-dom.development.js"
-      crossorigin
-    ></script>
-    <script type="module" src="App.js"></script>
-    <script>
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<App />);
-    </script>
+    <div id="root">
+      <main>
+        <div class="card">
+          <img src="#" alt="Card Image" />
+          <h2>Kartenüberschrift</h2>
+          <p>Beschreibung der Karte.</p>
+          <a href="#">Mehr erfahren</a>
+        </div>
+      </main>
+    </div>
+    <script type="text/jsx" src="App.jsx"></script>
   </body>
 </html>

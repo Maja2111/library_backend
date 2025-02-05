@@ -7,6 +7,7 @@ const App = () => {
   const fetchBooks = async () => {
     const response = await fetch('/api/books');
     const data = await response.json();
+    console.log(data); // Protokolliere die gesamte Antwort
     setBooks(data.books);
   };
 
@@ -33,13 +34,16 @@ const App = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={searchBooks}>Suchen</button>
-      <ul>
+      <main>
         {books.map((book) => (
-          <li key={book._id}>
-            {book.title} von {book.author}
-          </li>
+          <div className="card" key={book._id}>
+            <img src={book.coverImage} alt="Cover Image" />
+            <h2>{book.title}</h2>
+            <p>von {book.author}</p>
+            <a href="#">Mehr erfahren</a>
+          </div>
         ))}
-      </ul>
+      </main>
     </div>
   );
 };
